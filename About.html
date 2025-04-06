@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ROCHA PURE SCIENCE SCHOOL PORTAL</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         h1{
@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
+    <p id="name"></p>
     <header>
     <nav>
         <h1 style="color:rgb(238, 10, 10); border-radius:50%;">BN</h1>
@@ -31,22 +32,23 @@
             <h1>Student login</h1>
         <table>
         <tr>
-            <th>Student Reg.Number</th>
+            <th id="regNumber">Student Reg.Number</th>
             <td>
-              <input type="text">
+              <input type="text" id="regNumber" placeholder="Reg.Number">
             </td>
             <td>Type your student ID</td>
         </tr>
         <tr>
             <td>
                 <h2>Password</h2></td>
-               <td> <input type="text">
+               <td> <input type="text" id="password" placeholder="Enterpassword">
+                <p id="message"></p>
             </td>
             <td>Use either National ID/Mobile No.(without spaces)
             </td>
         </tr>
         </table>  
-                <a href="c:\Users\pc\Desktop\iyf\IYF-Brian-Ngana\iyf.brian.html">Login</a>
+                <button id="login">Login</button>
     <h2>Note:Digits and letters in your student ID/Reg.Number</h2>
     <ul>
         <li>Digit 0(Zero) and Not letter O</li>
@@ -64,5 +66,6 @@
         </table>
                 <a href="c:\Users\pc\Desktop\form\form.html">Generate letter of offer</a></br>&nbsp
     <a href="c:\Users\pc\Desktop\iyf.practicals\index.html">Go back</a>
+    <script src="html.js"></script>
 </body>
 </html>
